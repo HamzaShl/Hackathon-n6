@@ -64,9 +64,11 @@ label {
 	font-size: xx-large;
 	font-weight: bold;
 }
-.listWords {
+#word {
 	font-size: xx-large;
+	font-weight: bold;
 }
+
 .score {
 	display: flex;
 	justify-content: space-between;
@@ -88,8 +90,7 @@ p {
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-size: x-large;
 }
-.result,
-h2 {
+#result {
 	font-size: xx-large;
 	font-weight: 600;
 }
@@ -109,7 +110,7 @@ footer {
 .pub {
 	background-color: grey;
 	width: 75%;
-	height: 50%;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;

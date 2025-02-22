@@ -21,7 +21,7 @@
 				<form>
 					<div class="exercice">
 						<label for="text">Recopie le mot :</label>
-						<div class="listWords">chocolat</div>
+						<div id="word"></div>
 					</div>
 					<br />
 					<input type="text" id="text" />
@@ -30,9 +30,9 @@
 				<div class="score">
 					<div class="scorePrinted">
 						<h2>Score :</h2>
-						<div class="result">0 / 5</div>
+						<div id="result"></div>
 					</div>
-					<button type="submit"><p>ENVOYER</p></button>
+					<button id="submitBtn" type="submit"><p>ENVOYER</p></button>
 				</div>
 			</div>
 		</main>
@@ -40,5 +40,7 @@
 		<footer>
 			<div class="pub"><p>encart publicitaire</p></div>
 		</footer>
+
+		<script src="script.js"></script>
 	</body>
 </html>
