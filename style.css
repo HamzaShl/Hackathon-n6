@@ -2,12 +2,14 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	height: auto;
 }
 
 html,
 body {
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	width: 100%;
+	background-color: #e1e4e1;
 	overflow-x: hidden;
 }
 header {
@@ -27,10 +29,11 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 36.3px 20px;
+	margin: 3%;
 	background-color: #b6ddb2;
 	border: solid 3px #0b7401;
 	border-radius: 15px;
+	box-shadow: 0px 9px 15px 2px rgba(0, 0, 0, 0.3);
 }
 h1 {
 	padding: 20px;
@@ -54,14 +57,15 @@ form {
 	display: flex;
 	gap: 5%;
 	width: 100%;
+	align-items: center;
 }
+
 label {
 	font-size: xx-large;
 	font-weight: bold;
 }
 .listWords {
-	font-size: x-large;
-	font: 900;
+	font-size: xx-large;
 }
 .score {
 	display: flex;
@@ -91,6 +95,9 @@ h2 {
 }
 #text {
 	height: 50px;
+	background-color: #e1e4e1;
+	border: solid 3px #0b7401;
+	border-radius: 10px;
 }
 footer {
 	background-color: #0b7401;
