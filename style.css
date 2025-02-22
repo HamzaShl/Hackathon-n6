@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	width: 100%;
+	overflow-x: hidden;
+}
+header {
+	background-color: #0b7401;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+a {
+	font-size: x-large;
+	color: white;
+	text-decoration: none;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 36.3px 20px;
+	background-color: #b6ddb2;
+	border: solid 3px #0b7401;
+	border-radius: 15px;
+}
+h1 {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+.game {
+	width: 90%;
+	height: 341px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+.exercice {
+	display: flex;
+	gap: 5%;
+	width: 100%;
+}
+label {
+	font-size: xx-large;
+	font-weight: bold;
+}
+.listWords {
+	font-size: x-large;
+	font: 900;
+}
+.score {
+	display: flex;
+	justify-content: space-between;
+}
+.scorePrinted {
+	display: flex;
+	align-items: center;
+	width: 25%;
+	gap: 18%;
+}
+button {
+	border-style: none;
+	background-color: #0b7401;
+	color: white;
+	width: 200px;
+	height: 80px;
+}
+p {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: x-large;
+}
+.result,
+h2 {
+	font-size: xx-large;
+	font-weight: 600;
+}
+#text {
+	height: 50px;
+}
+footer {
+	background-color: #0b7401;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}
+.pub {
+	background-color: grey;
+	width: 75%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
