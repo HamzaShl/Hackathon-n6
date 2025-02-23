@@ -22,7 +22,7 @@ submitBtn.addEventListener("click", function () {
 		text.value = "";
 		text.focus(); // 🎯 Replace le curseur dans l'input
 	} else if (score === listWords.length) {
-		word.textContent = "🥇 BRAVO ! Tu as gagné une médaille ! 🥇";
+		word.textContent = "🥇 BRAVO ! Tu as réussi haut la main ! 🥇";
 		text.disabled = true; // 🚫 Désactive l'input
 		submitBtn.disabled = true; // 🚫 Désactive le bouton
 	} else if (score === listWords.length - 1) {

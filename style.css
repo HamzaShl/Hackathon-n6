@@ -85,6 +85,7 @@ button {
 	color: white;
 	width: 200px;
 	height: 80px;
+	border-radius: 15px;
 }
 p {
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
